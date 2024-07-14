@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
+    <node name="clear_turtle" pkg="rosservice" type="rosservice" args="call /kill turtle1"/>
+    <node pkg="assignment_scu_39" type="leader.py" name="scuGroupidLeader" output="screen"/>
+    <node pkg="assignment_scu_39" type="followerA.py" name="scuGroupidFollowerA" output="screen"/>
+    <node pkg="assignment_scu_39" type="followerB.py" name="scuGroupidFollowerB" output="screen"/>
+</launch>

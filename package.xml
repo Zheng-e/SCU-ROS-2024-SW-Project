@@ -1,0 +1,21 @@
+<package format="2">
+  <name>assignment_scu_39</name>
+  <version>0.0.0</version>
+  <description>The assignment_scu_39 package</description>
+
+  <maintainer email="user@domain.com">your_name</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <build_depend>rospy</build_depend>
+  <exec_depend>rospy</exec_depend>
+  <build_depend>roscpp</build_depend>
+  <exec_depend>roscpp</exec_depend>
+
+</package>
+
